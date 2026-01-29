@@ -13,7 +13,7 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-sunny # Иконка для активации светлой темы
         name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: blue # Основной цвет
+      primary: brown # Основной цвет
       accent: purple # Акцентный цвет
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
@@ -24,7 +24,7 @@ theme: # Тема сайта, информация о ее параметрах
       toggle:
         icon: material/weather-night
         name: Позвать солнышко
-      primary: deep purple
+      primary: grey
       accent: blue
   features: # настройки функциональностей темы
     #- navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
@@ -45,6 +45,10 @@ nav:
   - Инструкции:
     - instructions/index.md
     - Firewall: instructions/firewall.md
+  - Концепции:
+    - About GIT: concepts/about-git.md
+  - Регламенты:
+    - Стайлгайд: rules/styleguide.md
 
 
 markdown_extensions:
@@ -53,7 +57,8 @@ markdown_extensions:
   - attr_list # Использование html-атрибутов и CSS в элементах markdown
   - md_in_html # Поддержка markdown внутри html
   - def_list # Поддержка списков определений
-  - pymdownx.tabbed # Использование вкладок (табов)
+  - pymdownx.tabbed: # Использование вкладок (табов)
+      alternate_style: true
   - pymdownx.details # Использование спойлеров (катов)
   - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
       anchor_linenums: true
