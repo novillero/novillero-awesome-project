@@ -1,3 +1,3 @@
 # Инструкции
 
-* [Firewall](./firewall.md)
+<!-- material/tags { include: [manuals] } -->
