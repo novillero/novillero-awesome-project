@@ -50,6 +50,8 @@ nav:
   - Регламенты:
     - Стайлгайд: rules/styleguide.md
   - Сценарий: scenario-1.md
+  - API документация Swagger: api/api-swagger.md
+  - API документация Redoc: api/api-redoc.md
 
 
 markdown_extensions:
@@ -77,4 +79,6 @@ plugins:
       - rules
       - portfolio
   - glightbox
+  - swagger-ui-tag
+  - redoc-tag
 
