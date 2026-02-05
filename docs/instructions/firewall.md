@@ -4,7 +4,9 @@ tags:
   - portfolio
 ---
 
-# Настройка файрвола в RedHat Linux  
+# Настройка файрвола в RedHat Linux
+
+--8<-- "source:deprecated"
 
 Чтобы настроить файрвол в RedHat Linux, воспользуйтесь утилитой `iptables`.
 
