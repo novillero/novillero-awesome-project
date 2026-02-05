@@ -9,23 +9,12 @@ theme: # Тема сайта, информация о ее параметрах
   language: ru # Язык
   palette: # Настройки светлой и тёмной тем
     # Настройки светлой темы
-    - scheme: default 
-      toggle:
-        icon: material/weather-sunny # Иконка для активации светлой темы
-        name: Выключить солнышко # Всплывающий текст-подсказка
-      primary: brown # Основной цвет
-      accent: purple # Акцентный цвет
+    - scheme: docs 
       # вы можете использовать любой цвет из списка: 
       # red; pink; purple; deep purple; indigo; blue; light blue; cyan; teal; 
       # green; light green; lime; yellow; amber; orange; deep orange; brown; 
       # grey; blue grey; black; white
     # Настройки тёмной темы
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Позвать солнышко
-      primary: grey
-      accent: blue
   features: # настройки функциональностей темы
     #- navigation.sections # Добавление разделов верхнего уровня в боковом меню, отключение спойлеров в боковом меню
     #- navigation.path # Хлебные крошки
@@ -84,3 +73,5 @@ plugins:
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
 
+extra_css:
+  - stylesheets/extra.css
